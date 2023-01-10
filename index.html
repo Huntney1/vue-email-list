@@ -53,8 +53,8 @@
         <div class="container d-flex justify-content-center align-items-center vh-100">
             <div v-if="emails.lenght == 10" class="card" style="width: 20rem;">
 
-                <ul class="list-group list-group-flush" v-bind:emails="mails">
-                    <li v-for=" mail  in emails" class="list-group-item">{{ mail }}></li>
+                <ul class="list-group list-group-flush" v-bind:mails="mail">
+                    <li v-for=" mail  in mails" class="list-group-item">{{ mail }}></li>
                 </ul>
             </div>
         </div>
