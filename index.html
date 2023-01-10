@@ -34,8 +34,8 @@
 
     <!--* script head -->
 
-      <!-- script Vue.js -->
-      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- script Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <!--* Axios cdn -->
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"></script>
@@ -53,8 +53,8 @@
         <div class="container d-flex justify-content-center align-items-center vh-100">
             <div v-if="emails.lenght == 10" class="card" style="width: 20rem;">
 
-                <ul class="list-group list-group-flush" v-bind:emails="emails">
-                    <li v-for="(email, index) in emails" class="list-group-item">{{ emails[index] }}></li>
+                <ul class="list-group list-group-flush" v-bind:emails="mails">
+                    <li v-for=" mail  in emails" class="list-group-item">{{ mail }}></li>
                 </ul>
             </div>
         </div>
@@ -62,9 +62,7 @@
 
 
     <!--**********************************************************************************************************-->
-    <!--* script -->
-
-  
+    <!--* script bodY -->
 
     <!-- script personal js -->
     <script src="./js/script.js"></script>
